@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <nav class="home navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">SMART LOGIN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <button onclick="logOut()" class="btn btn-outline-warning my-2">
+              <a class="nav-link active" aria-current="page" href="./index.html">Logout</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5 text-center d-flex align-items-center">
+      <div class="home m-auto w-75 p-5">
+        <h1 id="userName"></h1> 
+      </div>
+    </div>
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
